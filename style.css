@@ -1,0 +1,432 @@
+/* @override http://www.labo-mitry.com/wp-content/themes/labo-mitry/style.css */
+
+/*
+Theme Name: Labo-Mitry
+Description: Thème enfant pour Office
+Author: Agence PLB
+Author URI: http://www.agence-plb.com
+Template: office
+Version: 0.1
+*/
+
+@import url("../office/style.css");
+
+/* = Structure*/
+
+#wrap .container{
+	background: white none;
+	padding: 25px;
+}
+
+/* Body, Common Classes & Wrap */
+
+a {
+    text-decoration: none;
+    color: #243a92;
+}
+
+#breadcrumbs{
+	background: url(images/breadcrumbs-arrow.png) no-repeat left top;
+}
+
+
+
+/* Post & page */
+
+.entry ul {
+	margin-left: 10px;
+}
+
+.entry ul li {
+	list-style: none;
+	background: url(images/square.png) no-repeat 0 6px;
+	margin-left: 0;
+	padding-left: 15px;
+}
+
+.entry ul li li {
+	list-style: none;
+	background: url(images/square-gris.png) no-repeat 0 6px;
+	margin-left: 0;
+	padding-left: 15px;
+}
+
+
+/* Formulaire */
+
+#sidebar .wpcf7 input[type="text"] {
+    width: 230px;
+}
+
+/* Page catalogue */
+
+.faq-title span{
+	padding: 10px;
+	padding-left: 40px;
+	background: url("images/detail.png") 10px center no-repeat;
+}
+
+
+.faq-content h5 {
+	color: #78a4d9 !important;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* Top menu */
+
+#top-bar-inner a#top-bar-callout{
+	height: 35px;
+	line-height: 15px;
+	padding: 10px 25px 0;
+	background: #585858;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#top-bar-inner a#top-bar-callout:hover{
+	background-color: #78a4d9;
+	text-decoration: none;
+}
+
+/* header */
+
+#header {
+	background: #fff url(images/bandeau-haut-home.jpg) no-repeat right bottom;
+	padding: 15px;
+	width: 940px;
+}
+
+.home #header {
+	background: #fff url(images/bandeau-haut-home.jpg) no-repeat right bottom;
+}
+
+.page-id-2854 #header, .parent-pageid-2854 #header {
+	background: #fff url(images/bandeau-haut-bts-muc.jpg) no-repeat right bottom;
+}
+
+.page-id-2876 #header, .parent-pageid-2876 #header {
+	background: #fff url(images/bandeau-haut-entreprise.jpg) no-repeat right bottom;
+}
+
+.page-id-2997 #header {
+	background: #fff url(images/bandeau-haut-equip2.jpg) no-repeat right bottom;
+}
+
+.page-id-301 #header {
+	background: #fff url(images/bandeau-haut-equipe.jpg) no-repeat right bottom;
+}
+
+.page-id-2993 #header, .parent-pageid-2993 #header {
+	background: #fff url(images/bandeau-haut-excell.jpg) no-repeat right bottom;
+}
+
+
+/* Navigation */
+#navigation {
+    background-color: #2B2B2B;
+    height: auto;
+    min-height: 30px;
+    width: 970px;
+}
+
+#navigation, #service-tabs {
+	font-family: Arial, sans-serif;
+}
+
+
+
+.parent-pageid-3342 #navigation .menu-item-3355 a, .parent-pageid-3722 #navigation .menu-item-3752 a, .parent-pageid-3429 #navigation .menu-item-3639 a, .parent-pageid-2854 #navigation .menu-item-3353 a, .parent-pageid-2876 #navigation .menu-item-2884 a, .parent-pageid-2786 #navigation .menu-item-2876 a, .parent-pageid-2993 #navigation .menu-item-3044 a, .parent-pageid-3313 #navigation .menu-item-3648 a, .parent-pageid-3684 #navigation .menu-item-3712 a { background-color: #f59f20 !important;}
+
+
+#menu-item-1917 a {
+	
+}
+
+
+
+
+
+.sf-menu #menu-item-1642 a {
+	text-indent: -2000px;
+	display: block;
+	width: 24px;
+	background: url(images/home.png) no-repeat center center;
+}
+
+ul#menu-menu.sf-menu a:hover{
+	background-color: #616262 !important;
+}
+
+/* Sidebar */
+
+#sidebar {
+	width: 235px;
+	float: left;
+}
+
+.post{
+	
+	width: 660px;
+}
+
+.pub h4 {
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	border-bottom: double #ddd;
+}
+
+.sidebar-box.widget_nav_menu h4 {
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+	padding-bottom: 10px;
+	text-transform: none;
+	font-size: 16px;
+	letter-spacing: 0;
+	border-bottom-color: #ddd;
+	border-bottom-style: none;
+	line-height: 16px;
+}
+
+/* homepage specific */
+
+
+#full-slides .caption, .heading span{
+	background-color: #858889;
+	
+}
+
+#full-slides .caption p{
+	color: white;
+}
+
+#full-slides .caption{
+	width: 430px;
+		text-shadow: 0px 0px 0px;
+}
+
+#full-slides .caption h2,
+#full-slides .caption h3{
+	font-size: 17px;
+	
+}
+
+#home-static-page img {
+    display: block;
+    max-width: 100%;
+	margin-bottom: 10px;
+}
+
+#home-static-page p {
+	text-align: center;
+}
+
+#full-slides .prev{
+	right: 30px;
+	background: #f59f20 url("images/fleche-gauche.png") no-repeat center center;
+}
+#full-slides .next{
+	background: #f59f20 url("images/fleche-droit.png") no-repeat center center;
+}
+
+#full-slides .prev:hover,
+#full-slides .next:hover{
+	background-color: #454545;
+}
+
+/*tagline*/
+#home-tagline{
+	color: #f5a220;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 45px;
+	font-style: Italic;
+	line-height: 1em;
+}
+
+#home-tagline a{
+	border-bottom: 1px dotted #2845a0;
+}
+
+/* footer */
+
+
+.footer-widget p{
+	color: #e5e5e5;
+}
+
+#footer-right .widget_text .textwidget {
+	background-color: black;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	padding: 10px;
+}
+
+/* R & D */
+
+.entry h2.title {
+	margin-top: 0;
+	color: #entry h2.title;
+	font-size: 18px;
+}
+
+.page-template-template-rd-php li#menu-item-1917 a{ background-color: #78a4d9 !important;}
+
+/* services */
+
+#service-tabs a, #menu-sidebar-bts-communication li a, #menu-sidebar-bts-ci li a, #menu-sidebar-bts-muc li a, #menu-sidebar-entreprises li a, #menu-sidebar-part li a, #menu-sidebar-bts-muc-initial li a, #menu-sidebar-bts-nrc li a, #menu-sidebar-bts-ag li a, #menu-sidebar-charte li a {
+	font-weight: bold;
+	color: #000;
+	display: block;
+	background: #aaa;
+	margin-bottom: 5px;
+	text-decoration: none;
+	text-shadow: 0px 0px 1px rgba(255,255,255, 0.8);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-opacity: 0.4;
+    -khtml-opacity: 0.4;
+    opacity: 0.4;
+	padding: 5px 10px;
+}
+#service-tabs a:hover, #menu-sidebar-bts-communication li a:hover, #menu-sidebar-bts-ci li a:hover, #menu-sidebar-bts-muc li a:hover, #menu-sidebar-entreprises li a:hover, #menu-sidebar-bts-muc-initial li a:hover, #menu-sidebar-bts-nrc li a:hover, #menu-sidebar-bts-ag li a:hover, #menu-sidebar-part li a:hover, #menu-sidebar-charte li a:hover {
+	-moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+#service-tabs li.active a, #menu-sidebar-bts-muc li.current_page_item a, #menu-sidebar-bts-ci li.current_page_item a, #menu-sidebar-entreprises li.current_page_item a, #menu-sidebar-bts-muc-initial li.current_page_item a, #menu-sidebar-bts-nrc li.current_page_item a, #menu-sidebar-part li.current_page_item a, #menu-sidebar-bts-communication li.current_page_item a, #menu-sidebar-bts-ag li.current_page_item a, #menu-sidebar-charte li.current_page_item a {
+	background: #f39e1f;
+	color: #fff;
+	text-shadow: none;
+	-moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+
+#service-tabs .sidebar-box {
+	margin-top: 30px;
+}
+
+#service-content h2{
+	color: #78a4d9;
+}
+
+#menu-item-1916 {
+	margin-top: 20px;
+	border-top: 1px solid #d8d8d8;
+	padding-top: 20px;
+}
+
+/* faq */
+
+.faq-content{
+	padding: 20px;
+	padding-left: 20px;
+	background: none;
+}
+
+/* tabs */
+
+.tab-shortcode	ul.ui-tabs-nav .ui-state-active a {
+	color: #78a4d9;
+	font-weight: bold;
+}
+
+
+/*alerts*/
+.alert-grey {
+	font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 0;
+	color: #666; /*IE fail fix*/
+	color: #ffffff;
+	text-shadow: 0px 0px 1px rgba(255,255,255, 0.3);
+	display: block;
+	padding: 10px;
+	text-align: center;
+	border: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.alert-grey.alignright{
+	float: right;
+	width: 50%;
+	margin: 0 0 10px 20px;
+}
+.alert-grey.alignleft{
+	float: left;
+	width: 50%;
+	margin: 0 20px 10px 0;
+}
+.alert-grey p:last-child{
+	margin-bottom: 0;
+}
+
+.alert-grey {
+	background: #78a4d9;
+}
+
+.alert-title{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+img.right {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+/* Emploi */
+
+
+
+.page-template-template-emploi-php h2:first-child{
+	margin-top: 0px;
+}
+
+
+/* Accueil "garantie" */
+.heading h2 {text-align:center}
+
+
+/* Tableaux */
+
+img { margin:0px; border-style:none }
+button { margin:0px; border-style:none; padding:0px; background-color:transparent; vertical-align:top }
+p:first-child { margin-top:0px }
+table { empty-cells:hide }
+.f-sp { font-size:1px; visibility:hidden }
+.f-lp { margin-bottom:0px }
+.f-fp { margin-top:0px }
+.f-x1 {  }
+.f-x2 {  }
+.f-x3 {  }
+em { font-style:italic }
+h1 { color:#f6a21e; font-family:Arial; font-weight:bold; font-size:20px; margin-left:0px; text-align:left }
+h1:first-child { margin-top:0px }
+h2 { color:#564b4d; font-family:Arial; font-weight:bold; font-size:14px; text-align:left; margin-top:0px; margin-bottom:0.1px }
+h2:first-child { margin-top:0px }
+p { color:#4d4d4d; font-family:Arial; font-size:12px; line-height:20px; text-align:justify; margin-top:0px; margin-bottom:0.1px }
+strong { font-weight:bold }
+.txttab2 { color:#4d4d4d; font-family:Arial; font-size:12px; line-height:1; text-align:center; margin-top:0px; margin-bottom:0.1px }
+.style5 { color:#fff }
+.titretab { color:#fff; font-family:Arial; font-weight:bold; font-size:12px; text-align:center }
+.txttab1 { color:#4d4d4d; font-family:Arial; font-size:12px; line-height:1; margin-left:7px; text-indent:0px }
+.style12 { margin-left:8.059px; text-indent:0px }
+.style15 { margin-left:7.326px; text-indent:0px }
+.style1 { color:#4d4d4d; font-family:Arial; font-size:12px }
+
+
